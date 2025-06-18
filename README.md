@@ -22,12 +22,14 @@ A simple yet powerful RESTful API built with Flask to manage core hospital opera
 - Consistent, scalable API design
 
 ## 🧱 Tech Stack
-- Component	Technology
-- Backend	Python (Flask)
-- Authentication	Flask-Login
-- Database	SQLite + SQLAlchemy
-- File Uploads	Werkzeug
-- Forms/Email	Flask-Mail (optional for future notifications)
+| Component        | Technology          |
+| ---------------- | ------------------- |
+| Backend          | Python (Flask)      |
+| Database         | SQLite + SQLAlchemy |
+| Authentication   | Flask-Login         |
+| File Uploads     | Werkzeug            |
+| Email (optional) | Flask-Mail          |
+
 
 ## 🔐 Authentication
 - Login sessions are handled using Flask-Login
